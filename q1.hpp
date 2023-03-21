@@ -1,3 +1,7 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
 
 //********************
 // Declare Function Prototypes
@@ -6,12 +10,6 @@
 // ******************************
 // Implement all your functions here
 // ******************************
-
-
-#include <iostream>
-#include <iomanip>
-
-using namespace std;
 
 void swapTwoValues(int n1, int n2) {
     int temp = n1;
