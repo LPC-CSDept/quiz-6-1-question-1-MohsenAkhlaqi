@@ -34,17 +34,3 @@ void getinput(float& f1, float& f2) {
     cout << "Enter two floats: ";
     cin >> f1 >> f2;
 }
-
-int main() {
-    int n1, n2;
-    getinput(n1, n2);
-    swapTwoValues(n1, n2);
-    cout << "After swapping: " << n1 << " " << n2 << endl;
-
-    float f1, f2;
-    getinput(f1, f2);
-    swapTwoValues(f1, f2);
-    cout << "After swapping: " << fixed << setprecision(2) << f1 << " " << f2 << endl;
-
-    return 0;
-}
